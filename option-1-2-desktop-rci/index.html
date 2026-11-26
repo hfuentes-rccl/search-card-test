@@ -4,6 +4,7 @@
 <head>
 <meta charset="utf-8">
 <title>Cruise search results desktop</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="./vendor/react.js"></script>
 <script src="./vendor/react-dom.js"></script>
 <script src="./support.js"></script>
@@ -95,7 +96,7 @@ button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid #1240
 @media (prefers-reduced-motion: reduce){.drawer-scrim,.drawer-panel{animation-duration:1ms !important}}
 </style>
 </helmet>
-<div id="page-root" style="position: relative; width: 1440px; min-height: 1024px; box-sizing: border-box; background: #ffffff; color: #010c1d; font-family: 'Proxima Nova', Arial, sans-serif; font-synthesis: none; {{ rootExtra }}">
+<div id="page-root" style="position: relative; width: 100%; max-width: 1440px; min-width: 1024px; margin: 0 auto; min-height: 1024px; box-sizing: border-box; background: #ffffff; color: #010c1d; font-family: 'Proxima Nova', Arial, sans-serif; font-synthesis: none; {{ rootExtra }}">
 
   <header style="display: flex; height: 88px; box-sizing: border-box; align-items: center; padding: 0 80px; border-bottom: 1px solid #d7dee9;">
     <svg width="44" height="44" viewBox="0 0 24 24" fill="none" role="img" aria-label="Royal Caribbean"><path d="M3.5664 8.32763L3 2.46527L6.47132 4.968L5.2421 6.33386L7.19492 7.67383L10.1242 6.36623L8.9946 4.91217L12 2L15.0054 4.91217L13.8758 6.36623L16.8051 7.67383L18.7579 6.33386L17.5287 4.968L21 2.46527L20.4336 8.32763H3.5664ZM3.6685 9.38439L3.8573 11.3353H10.1096L10.108 18.0845H7.06689C6.38867 18.0845 5.80202 17.5618 5.80202 16.9533C5.80202 16.3448 6.44945 15.818 7.1617 15.411L4.04286 13.253L4.61736 19.1963L12 22L19.3826 19.1963L19.9571 13.253L16.8383 15.411C17.5506 15.818 18.198 16.3448 18.198 16.9533C18.198 17.5618 17.6113 18.0837 16.9331 18.0845H13.892L13.8904 11.3353H20.1427L20.3315 9.38439H3.6685Z" fill="#001871"></path></svg>
